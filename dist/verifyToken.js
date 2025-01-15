@@ -1,7 +1,8 @@
 import { createHmac } from "crypto";
 const verifyToken = (input, secret) => {
     const [header, payload, signature] = input.split('.');
-    const expectedSignature = createHmac('sha256', secret)
+    const decodedHeader = JSON.parse(Buffer.from(header, 'base64').toString());
+    const expectedSignature = createHmac(decodedHeader.alg, secret)
         .update(`${header}.${payload}`)
         .digest('base64')
         .replace(/\+/g, '-')
