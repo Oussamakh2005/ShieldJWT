@@ -15,7 +15,8 @@ npm i shield-jwt
 ### Importing the Module
 To use the functions provided by the shield-jwt module, import them into your project:
 ```js
-import { signToken, verifyToken } from "shield-jwt";
+import  signToken from "shield-jwt";
+import verifyToken from "shield-jwt";
 ```
 ### Generating a Token
 Use the signToken function to generate a JWT. This function requires at least three parameters:
