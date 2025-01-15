@@ -13,7 +13,7 @@ const verifyToken = (input, secret) => {
     }
     else {
         const decodedPayload = JSON.parse(Buffer.from(payload, 'base64').toString());
-        if (decodedPayload.exp < (Date.now() / 1000)) {
+        if (decodedPayload.exp < Math.floor((Date.now() / 1000))) {
             throw new Error("Token has expired");
         }
         else {
