@@ -1,5 +1,7 @@
 node_modules
 tsconfig.json
+.npmignore
+
 
 test.ts 
 test.js

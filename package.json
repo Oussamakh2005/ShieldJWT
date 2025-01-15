@@ -1,14 +1,19 @@
 {
-  "name": "shieldjwt",
+  "name": "shield-jwt",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["jwt","ShieldJWT","shield-jwt","json","web","token","authentication","session","api","nodejs","express","backend","middleware","secure","authorization","bearer token","stateless","auth library","jwt auth","authentication middleware"],
+  "author": "Oussama Khelef",
+  "license": "MIT",
+  "description": "this project is a jwt authentication for Node js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oussamakh2005/ShieldJWT.git"
+  },
   "devDependencies": {
     "@types/node": "^22.10.6",
     "ts-node": "^10.9.2",
