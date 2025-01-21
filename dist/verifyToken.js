@@ -22,4 +22,3 @@ const verifyToken = (input, secret) => {
     }
 };
 export default verifyToken;
-//# sourceMappingURL=verifyToken.js.map

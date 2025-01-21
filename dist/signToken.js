@@ -20,4 +20,3 @@ const signToken = (payload, secret, exp, algorithm = 'HS256') => {
     return `${encodedHeader}.${encodedPayload}.${signature}`;
 };
 export default signToken;
-//# sourceMappingURL=signToken.js.map

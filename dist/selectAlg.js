@@ -16,4 +16,3 @@ const selectAlg = (input) => {
     return alg;
 };
 export default selectAlg;
-//# sourceMappingURL=selectAlg.js.map

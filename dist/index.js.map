@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,gBAAgB,CAAC;AACvC,OAAO,WAAW,MAAM,kBAAkB,CAAC;AAE3C,eAAe;IACX,SAAS;IACT,WAAW;CACd,CAAC","sourcesContent":["import signToken from \"./signToken.js\";\nimport verifyToken from \"./verifyToken.js\";\n\nexport default {\n    signToken,\n    verifyToken\n};"]}
